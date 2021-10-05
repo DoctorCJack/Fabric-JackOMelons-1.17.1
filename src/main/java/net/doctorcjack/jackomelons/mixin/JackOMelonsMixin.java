@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class JackOMelonsMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		JackOMelons.LOGGER.info("This line is printed by an example mod mixin!");
+		JackOMelons.LOGGER.info("This line is printed by the jackomelons mixin!");
 	}
 }
