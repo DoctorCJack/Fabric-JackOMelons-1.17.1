@@ -7,7 +7,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.Material;
 import net.minecraft.sound.BlockSoundGroup;
 
-public class JackOMelon extends OrientableBlock {
+public class JackOMelon extends CustomCarvedBlock {
     protected JackOMelon() {
         super(FabricBlockSettings.of(Material.SOLID_ORGANIC)
                 .strength(1.0f, 1.0f)
