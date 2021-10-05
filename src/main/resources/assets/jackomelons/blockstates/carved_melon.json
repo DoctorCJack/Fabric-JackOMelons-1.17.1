@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "jackomelons:block/carved_melon",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "jackomelons:block/carved_melon"
+    },
+    "facing=south": {
+      "model": "jackomelons:block/carved_melon",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "jackomelons:block/carved_melon",
+      "y": 270
+    }
+  }
+}
