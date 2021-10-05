@@ -4,9 +4,10 @@
   "package": "net.doctorcjack.jackomelons.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "JackOMelonsMixin",
+    "MelonMixin"
   ],
   "client": [
-    "JackOMelonsMixin"
   ],
   "injectors": {
     "defaultRequire": 1
